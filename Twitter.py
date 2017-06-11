@@ -9,10 +9,10 @@ class Twitter(object):
     # storing tweets; Setting up the news publisher's screen name on twitter.
     def __init__(self, dbObject, parserObject):
         #User authentication: Ye Liang
-        consumer_key="lFORZk7pmFwrojCqkOj82zEjd"
-        consumer_secret="nTbFhinOXybnx5ISEShJPee9sn2JnWJ9MfhU7CygFC52fP5B2T"
-        access_token="3502291578-kx4NrlwXNzf3offZwKmsrxMsgQK373IUKaHM754"
-        access_token_secret="mT2S2ZQFhoWaD5Ennpe3L9CMsRliGeGb4BD4CLUm6tHGz"
+        consumer_key=""
+        consumer_secret=""
+        access_token=""
+        access_token_secret=""
         #authorize twitter, initialize tweepy
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
         auth.set_access_token(access_token, access_token_secret)
